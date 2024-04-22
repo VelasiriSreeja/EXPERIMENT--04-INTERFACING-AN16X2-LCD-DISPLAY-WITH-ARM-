@@ -186,7 +186,7 @@ int main(void)
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,1);
-  Lcd_string(&lcd, "Janani S");
+  Lcd_string(&lcd, "pranathi");
   while (1)
   {
     
@@ -207,13 +207,9 @@ int main(void)
 ### LCD OFF:
 ![LCD OFF](https://github.com/JananiSoundararajan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119477549/f6865754-52c5-4890-abfa-47882350f26a)
 
-### LCD ON:
-![PMC4](https://github.com/JananiSoundararajan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119477549/41f7256b-b7df-4485-a34e-2a92ae6e8e0f)
-
  
 ## Circuit Diagram: 
 ![PMC EXP4DES](https://github.com/JananiSoundararajan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119477549/6a84d3b2-212d-4657-ab49-8db2dc24efb6)
 
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
-
