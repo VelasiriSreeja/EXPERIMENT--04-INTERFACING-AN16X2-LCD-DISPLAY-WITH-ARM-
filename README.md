@@ -169,7 +169,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 Cube program :
-```C
+C
 #include "main.h"
 #include "lcd.h"
 
@@ -186,7 +186,7 @@ int main(void)
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,1);
-  Lcd_string(&lcd, "SREEJA V");
+  Lcd_string(&lcd, "Microcontroller");
   while (1)
   {
     
@@ -201,20 +201,19 @@ int main(void)
   }
 
 }
-```
+
 
 ## Output screen shots of proteus  :
 ### LCD OFF:
 ![LCD OFF](https://github.com/JananiSoundararajan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119477549/f6865754-52c5-4890-abfa-47882350f26a)
 
-
-### LCD ON:
-
-![image](https://github.com/22003264/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119389139/b884417b-2758-4ad0-977d-e0a121ebcfe6)
-
-
+ 
 ## Circuit Diagram: 
 ![PMC EXP4DES](https://github.com/JananiSoundararajan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119477549/6a84d3b2-212d-4657-ab49-8db2dc24efb6)
 
+## Output:
+![Screenshot (29)](https://github.com/varsha-2005/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119288183/197e2d9b-fd60-47fd-bddc-a188bda8790d)
+
+
 ## Result :
-Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
+Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
